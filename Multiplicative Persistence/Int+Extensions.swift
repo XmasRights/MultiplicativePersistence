@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  Int+Extensions.swift
 //  Multiplicative Persistence
 //
 //  Created by Christopher Fonseka on 29/03/2019.
@@ -8,14 +8,8 @@
 
 import Foundation
 
-do {
-    let val = try CommandLineParser.getValue()
-    print(val)
-    
-    print(val.digits)
-    
-} catch {
-    print(error.localizedDescription)
+extension Int {
+    var digits: [Int] {
+        return String(self).compactMap{ Int(String($0)) }
+    }
 }
-
-
