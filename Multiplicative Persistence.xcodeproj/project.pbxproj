@@ -65,13 +65,37 @@
 		4B8D7785224E9315001DB769 /* Multiplicative Persistence */ = {
 			isa = PBXGroup;
 			children = (
+				4BA4E473225EC2F200A66F4F /* Sequences */,
+				4BA4E472225EC2E400A66F4F /* Extensions */,
+				4BA4E471225EC2BE00A66F4F /* Command Line Parsing */,
 				4B8D7786224E9315001DB769 /* main.swift */,
+			);
+			path = "Multiplicative Persistence";
+			sourceTree = "<group>";
+		};
+		4BA4E471225EC2BE00A66F4F /* Command Line Parsing */ = {
+			isa = PBXGroup;
+			children = (
 				4B8D778D224E935D001DB769 /* CommandLineParser.swift */,
+			);
+			path = "Command Line Parsing";
+			sourceTree = "<group>";
+		};
+		4BA4E472225EC2E400A66F4F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
 				4B8D778F224E9497001DB769 /* Int+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4BA4E473225EC2F200A66F4F /* Sequences */ = {
+			isa = PBXGroup;
+			children = (
 				4B8D7793224E9582001DB769 /* MultiplicativePersistenceSequence.swift */,
 				4BA4E46F225EBDBD00A66F4F /* SequenceLogger.swift */,
 			);
-			path = "Multiplicative Persistence";
+			path = Sequences;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
