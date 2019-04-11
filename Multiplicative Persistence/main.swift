@@ -8,11 +8,18 @@
 
 import Foundation
 
+func print<T>(logger: SequenceLogger<T>) {
+    let log = logger.log
+    log.forEach { print($0) }
+    print("That took \(log.count) steps!")
+}
+
 do {
     let val = try CommandLineParser.getValue()
     print(val)
-    
-    print(val.digits)
+    let sequence =  MultiplicativePersistenceSequence(start: val)
+    let logger = SequenceLogger(sequence)
+    print(logger: logger)
     
 } catch {
     print(error.localizedDescription)

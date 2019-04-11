@@ -10,6 +10,8 @@
 		4B8D7787224E9315001DB769 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D7786224E9315001DB769 /* main.swift */; };
 		4B8D778E224E935D001DB769 /* CommandLineParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D778D224E935D001DB769 /* CommandLineParser.swift */; };
 		4B8D7790224E9497001DB769 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D778F224E9497001DB769 /* Int+Extensions.swift */; };
+		4B8D7794224E9582001DB769 /* MultiplicativePersistenceSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D7793224E9582001DB769 /* MultiplicativePersistenceSequence.swift */; };
+		4BA4E470225EBDBD00A66F4F /* SequenceLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA4E46F225EBDBD00A66F4F /* SequenceLogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		4B8D7786224E9315001DB769 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4B8D778D224E935D001DB769 /* CommandLineParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandLineParser.swift; sourceTree = "<group>"; };
 		4B8D778F224E9497001DB769 /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		4B8D7793224E9582001DB769 /* MultiplicativePersistenceSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicativePersistenceSequence.swift; sourceTree = "<group>"; };
+		4BA4E46F225EBDBD00A66F4F /* SequenceLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				4B8D7786224E9315001DB769 /* main.swift */,
 				4B8D778D224E935D001DB769 /* CommandLineParser.swift */,
 				4B8D778F224E9497001DB769 /* Int+Extensions.swift */,
+				4B8D7793224E9582001DB769 /* MultiplicativePersistenceSequence.swift */,
+				4BA4E46F225EBDBD00A66F4F /* SequenceLogger.swift */,
 			);
 			path = "Multiplicative Persistence";
 			sourceTree = "<group>";
@@ -125,7 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B8D7794224E9582001DB769 /* MultiplicativePersistenceSequence.swift in Sources */,
 				4B8D7790224E9497001DB769 /* Int+Extensions.swift in Sources */,
+				4BA4E470225EBDBD00A66F4F /* SequenceLogger.swift in Sources */,
 				4B8D778E224E935D001DB769 /* CommandLineParser.swift in Sources */,
 				4B8D7787224E9315001DB769 /* main.swift in Sources */,
 			);
